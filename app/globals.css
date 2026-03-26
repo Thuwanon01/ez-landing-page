@@ -22,5 +22,30 @@
 body {
   background: var(--background);
   color: var(--foreground);
+}
 
+/* Wiggle animation for review cards */
+@keyframes wiggle {
+  0%   { transform: rotate(0deg) scale(1); }
+  15%  { transform: rotate(-3deg) scale(1.03); }
+  30%  { transform: rotate(3deg) scale(1.03); }
+  45%  { transform: rotate(-2deg) scale(1.02); }
+  60%  { transform: rotate(2deg) scale(1.02); }
+  75%  { transform: rotate(-1deg) scale(1.01); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
+.wiggle {
+  animation: wiggle 0.5s ease-in-out;
+}
+
+/* Continuous iPhone-style wiggle for edit mode */
+@keyframes wiggle-edit {
+  0%, 100% { transform: rotate(0deg); }
+  25%      { transform: rotate(-2.5deg); }
+  75%      { transform: rotate(2.5deg); }
+}
+
+.wiggle-edit {
+  animation: wiggle-edit 0.22s ease-in-out infinite;
 }

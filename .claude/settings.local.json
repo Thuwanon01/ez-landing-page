@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch:*)",
+      "Bash(git rebase:*)",
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(ls -lt ~/Desktop/*.png)",
+      "Bash(find ~/Downloads ~/Documents -name *.jpeg -newer '~/Desktop/Screenshot 2569-03-26 at 17.22.55.png')",
+      "Bash(find /private/tmp/claude-501 -name *.jpeg -o -name *.jpg -o -name *.png)",
+      "Bash(mdfind -onlyin ~ 'kMDItemContentCreationDate > $\\(\\($\\(date +%s\\) - 3600\\)\\)' -name *.jpeg)",
+      "Bash(mdfind 'kMDItemFSCreationDate > $\\(\\($\\(date +%s\\) - 3600\\)\\)')",
+      "Bash(find ~/Library -name *.jpeg -newer '/Users/tuwanon/Desktop/Screenshot 2569-03-26 at 17.22.55.png')"
+    ]
+  }
+}
