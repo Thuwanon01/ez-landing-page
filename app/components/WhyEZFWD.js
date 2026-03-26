@@ -32,10 +32,10 @@ export default function WhyEZFWD() {
     }, [])
 
     const slides = [
-        { text: "เรียนเป็นขั้นตอนจากพื้นฐาน", bg: "/why-bg-1.png" },
-        { text: "มี MENTOR ดูแลตลอดเส้นทาง", bg: "/why-bg-2.png" },
-        { text: "สร้างผลงานเองได้จริง", bg: "/why-bg-3.png" },
-        { text: "ฝึกทำงานกับคนทำงานจริง", bg: "/why-bg-4.png" },
+        { text: "เรียนเป็นขั้นตอนจากพื้นฐาน", bg: "/ez-landing-page/why-bg-1.png" },
+        { text: "มี MENTOR ดูแลตลอดเส้นทาง", bg: "/ez-landing-page/why-bg-2.png" },
+        { text: "สร้างผลงานเองได้จริง", bg: "/ez-landing-page/why-bg-3.png" },
+        { text: "ฝึกทำงานกับคนทำงานจริง", bg: "/ez-landing-page/why-bg-4.png" },
     ]
 
     return (

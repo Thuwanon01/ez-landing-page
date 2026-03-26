@@ -64,7 +64,7 @@ export default function Journey() {
 
                             {/* Circle */}
                             <div className="relative w-12 h-12 flex items-center justify-center self-center">
-                                <img src="/step-circle.svg" className="absolute inset-0 w-full h-full" alt="" />
+                                <img src="/ez-landing-page/step-circle.svg" className="absolute inset-0 w-full h-full" alt="" />
                                 <span className="relative z-10 text-lg font-bold text-ez-dark">{step.number}</span>
                             </div>
 

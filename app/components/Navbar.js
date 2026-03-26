@@ -7,7 +7,7 @@ export default function Navbar() {
 
                 {/* ซ้าย: Logo */}
                 <div className="flex items-center gap-4">
-                    <img src="/logo.png" alt="EZForward" className="h-10" />
+                    <img src="/ez-landing-page/logo.png" alt="EZForward" className="h-10" />
 
                     {/* Nav link */}
                     <a href="#" className="font-bold uppercase text-sm tracking-wide">
